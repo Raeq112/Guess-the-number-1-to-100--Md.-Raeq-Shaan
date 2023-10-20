@@ -1,0 +1,7 @@
+import random
+x=random.randrange(1,100)
+num=int(input("Guess a number between 1 to 100: "))
+while num!=x:
+    print("Sorry wrong number,try again. \n")
+    num = int(input("Guess a number between 1 to 100: "))
+print("congratulations you have guessed the correct number")
